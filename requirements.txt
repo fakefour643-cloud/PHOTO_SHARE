@@ -1,3 +1,10 @@
+flask
+dlib-bin
+face_recognition
+qrcode
+pillow
+werkzeug
+gunicorn
 google-api-python-client
 google-auth
 google-auth-oauthlib
