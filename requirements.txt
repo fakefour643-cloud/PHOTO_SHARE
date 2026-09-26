@@ -6,3 +6,6 @@ pillow
 werkzeug
 gunicorn
 pyngrok
+google-api-python-client
+google-auth
+google-auth-oauthlib
