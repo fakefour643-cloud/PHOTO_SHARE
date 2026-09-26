@@ -1,4 +1,5 @@
 flask
+dlib-bin
 face_recognition
 qrcode
 pillow
