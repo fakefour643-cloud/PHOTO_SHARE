@@ -23,4 +23,4 @@ COPY . .
 EXPOSE 10000
 
 # Run with Gunicorn on port 7860
-CMD ["gunicorn", "--bind", "0.0.0.0:7860", "--workers", "2", "--threads", "4", "app:app"]
+CMD gunicorn --bind 0.0.0.0:10000 --workers 1 --threads 2 --timeout 120 app:app
