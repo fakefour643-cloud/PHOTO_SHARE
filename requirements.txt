@@ -1,0 +1,7 @@
+flask
+face_recognition
+qrcode
+pillow
+werkzeug
+gunicorn
+pyngrok
