@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Hugging Face Spaces expose port 7860 by default
-EXPOSE 7860
+EXPOSE 10000
 
 # Run with Gunicorn on port 7860
 CMD ["gunicorn", "--bind", "0.0.0.0:7860", "--workers", "2", "--threads", "4", "app:app"]
